@@ -1,0 +1,122 @@
+.notifications-page {
+  max-width: 1100px;
+}
+
+.notifications-page-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.notifications-page-header h2 {
+  margin: 0 0 6px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.notifications-page-header p {
+  margin: 0;
+  color: #64748b;
+  font-size: 14px;
+}
+
+.notifications-page-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.notifications-page-actions select,
+.notifications-button {
+  border: 1px solid #dbe3f0;
+  border-radius: 999px;
+  padding: 10px 14px;
+  background: #fff;
+  color: #0f172a;
+  font: inherit;
+}
+
+.notifications-button-primary {
+  border-color: #2563eb;
+  background: #2563eb;
+  color: #fff;
+}
+
+.notifications-banner {
+  margin-bottom: 16px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: #eff6ff;
+  color: #1d4ed8;
+}
+
+.notifications-banner-error {
+  background: #fef2f2;
+  color: #b91c1c;
+}
+
+.notifications-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.notifications-card {
+  border: 1px solid #dbe3f0;
+  border-radius: 16px;
+  padding: 18px;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
+}
+
+.notifications-item-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 10px;
+}
+
+.notifications-item-header h3 {
+  margin: 4px 0 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.notifications-item-header time,
+.notifications-meta {
+  color: #64748b;
+  font-size: 12px;
+}
+
+.notifications-kind {
+  display: inline-flex;
+  border-radius: 999px;
+  padding: 4px 8px;
+  background: #dbeafe;
+  color: #1d4ed8;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.notifications-message {
+  margin: 0 0 10px;
+  color: #0f172a;
+  line-height: 1.6;
+}
+
+.notifications-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.notifications-item-actions {
+  margin-top: 14px;
+}
+
+.notifications-empty {
+  color: #64748b;
+  text-align: center;
+}

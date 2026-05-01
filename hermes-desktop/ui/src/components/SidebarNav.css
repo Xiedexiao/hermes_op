@@ -1,0 +1,32 @@
+.sidebar-nav {
+  width: 180px;
+  background: rgba(255, 255, 255, 0.86);
+  border-right: 1px solid #dbe3f0;
+  padding: 18px 0;
+  backdrop-filter: blur(12px);
+}
+
+.sidebar-nav ul {
+  list-style: none;
+}
+
+.nav-item {
+  display: block;
+  padding: 11px 20px;
+  color: #475569;
+  text-decoration: none;
+  transition: background-color 0.15s, color 0.15s, transform 0.15s;
+}
+
+.nav-item:hover {
+  background-color: #eff6ff;
+  color: #1d4ed8;
+  transform: translateX(2px);
+  text-decoration: none;
+}
+
+.nav-item-active {
+  background-color: #dbeafe;
+  color: #1d4ed8;
+  font-weight: 600;
+}

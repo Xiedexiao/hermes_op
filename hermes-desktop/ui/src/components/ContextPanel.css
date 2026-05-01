@@ -1,0 +1,134 @@
+.context-panel {
+  width: 300px;
+  flex-shrink: 0;
+  overflow-y: auto;
+  border-left: 1px solid #dde4f0;
+  background:
+    linear-gradient(180deg, rgba(244, 247, 251, 0.96), rgba(255, 255, 255, 0.98)),
+    #f8fafc;
+  padding: 20px 18px;
+}
+
+.context-panel-card {
+  margin-bottom: 16px;
+  border: 1px solid #dbe3f0;
+  border-radius: 16px;
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.05);
+}
+
+.context-panel-card h3 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.context-panel-card p {
+  margin: 10px 0 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #475569;
+}
+
+.context-panel-eyebrow {
+  margin-bottom: 8px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #2563eb;
+}
+
+.context-panel-stats {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.context-panel-stat {
+  border-radius: 12px;
+  background: #eff6ff;
+  padding: 12px;
+}
+
+.context-panel-stat-value {
+  display: block;
+  font-size: 24px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.context-panel-stat-label {
+  display: block;
+  margin-top: 4px;
+  font-size: 12px;
+  color: #475569;
+}
+
+.context-panel-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.context-panel-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 13px;
+  color: #475569;
+}
+
+.context-panel-row strong {
+  color: #0f172a;
+}
+
+.context-panel-linkcard {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  border: 1px solid #dbe3f0;
+  border-radius: 12px;
+  padding: 12px 14px;
+  background: #fff;
+  transition:
+    transform 120ms ease,
+    box-shadow 120ms ease,
+    border-color 120ms ease;
+}
+
+.context-panel-linkcard:hover {
+  transform: translateY(-1px);
+  border-color: #93c5fd;
+  box-shadow: 0 10px 20px rgba(37, 99, 235, 0.08);
+}
+
+.context-panel-linkcard-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.context-panel-linkcard-text,
+.context-panel-linkcard-meta {
+  font-size: 12px;
+  color: #475569;
+  text-align: left;
+}
+
+.context-panel-empty {
+  margin: 0;
+  font-size: 13px;
+  color: #64748b;
+}
+
+@media (max-width: 1100px) {
+  .context-panel {
+    display: none;
+  }
+}

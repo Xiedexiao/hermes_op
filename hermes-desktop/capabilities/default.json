@@ -1,0 +1,11 @@
+{
+  "$schema": "https://schema.tauri.app/config/2/capabilities",
+  "identifier": "default",
+  "description": "Default capability for Hermes Desktop",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "shell:allow-open",
+    "core:window:default"
+  ]
+}
